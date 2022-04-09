@@ -86,7 +86,7 @@ public class GameOfLife
         Living(grid, M, N);
     }
 
-    // Function to List of living popualtion
+    // Function to get the list of living popualtion
     static void Living(int[,] grid,
                             int M, int N)
     {
@@ -98,7 +98,7 @@ public class GameOfLife
             for (int m = 1; m < N - 1; m++)
             {
 
-                // finding no of Neighbours that are alive
+                // finding no.of Neighbours that are alive
                 int aliveNeighbours = 0;
                 for (int i = -1; i <= 1; i++)
                     for (int j = -1; j <= 1; j++)
